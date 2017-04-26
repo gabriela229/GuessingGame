@@ -2,7 +2,8 @@
 
 body::after {
   content: "";
-  background-image: url('https://media.giphy.com/media/SufoKsersIO2Y/giphy.gif');
+  background-image: url('http://static.lakana.com/mmm-wisctv-media-us-east-1/photo/2016/11/14/NL-Guessing-Game-jpg_4595959_ver1.0_640_360.jpg');
+  background-repeat: no-repeat;
   opacity: 0.2;
   top: 0;
   left: 0;
@@ -10,7 +11,7 @@ body::after {
   right: 0;
   position: absolute;
   z-index: -1;  
-  background-size: 7%; 
+  background-size: cover; 
 }
 
 
