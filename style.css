@@ -2,9 +2,9 @@
 
 body::after {
   content: "";
-  background-image: url('http://static.lakana.com/mmm-wisctv-media-us-east-1/photo/2016/11/14/NL-Guessing-Game-jpg_4595959_ver1.0_640_360.jpg');
+  background-image: url('https://i.ytimg.com/vi/70ugvRmq3KQ/maxresdefault.jpg');
   background-repeat: no-repeat;
-  opacity: 0.2;
+  opacity: 0.6;
   top: 0;
   left: 0;
   bottom: 0;
