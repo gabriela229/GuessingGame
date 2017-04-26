@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Guessing Game</title>
+
+    <!-- Bootstrap and CSS here-->
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type= 'text/css' href="style.css">
+  </head>
+  <body>
+
+      <div id='app' class='center container'>
+
+        <div id='headers'>
+          <!-- Title and subtitles! -->
+          <h1 id='title'>Play the Guessing Game!</h1>
+          <h2 id='subtitle'>Guess a number between 1-100</h2>
+        </div>
+
+        <div id='main' >
+          <div id='input-parent'>
+            <!-- Player's guess input, and submit button -->
+            <input id='player-input' placeholder="#" maxlength='3' autofocus=autofocus name="guess">
+            <button id='submit' class='btn btn-success'>Go!</button>
+          </div>
+
+          <div id='guesses'>
+            <!-- unordered list of guesses -->
+            <ul id='guess-list' >
+              <li id = 'guess-1' class='guess '>-</li>
+              <li id = 'guess-2' class='guess'>-</li>
+              <li id = 'guess-3' class='guess'>-</li>
+              <li id = 'guess-4' class='guess'>-</li>
+              <li id = 'guess-5' class='guess'>-</li>
+            </ul>
+          </div>
+
+          <div id="menu-btns" >
+            <!-- reset and hint buttons -->
+            <button id='reset' class="btn btn-warning">Reset</button>
+            <button id='hint' class="btn btn-info">Hint</button>
+          </div>
+        </div>
+      </div>
+
+
+
+    <div id='footer' class='center container'>
+        <div class='row'>
+          <div class='col-sm-4'>
+            <img src='fa-logo.png'></img>
+          </div>
+
+          <div class='col-sm-4'>
+            <h4>Project by Gaby</h4>
+          </div>
+
+          <div class='col-sm-4'>
+            <img src='gh-logo.png'></img>
+          </div>
+
+
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="GUessingGame-Part2/GuessingGame.js"></script>
+  </body>
+</html>
