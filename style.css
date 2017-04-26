@@ -12,6 +12,7 @@ body::after {
   position: absolute;
   z-index: -1;  
   background-size: cover; 
+  background-position: center;
 }
 
 
